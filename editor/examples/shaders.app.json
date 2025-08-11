@@ -15,7 +15,7 @@
 		"object": {
 			"uuid": "4AC7ADED-CC22-4B16-8218-2E0A0C38C8F8",
 			"type": "PerspectiveCamera",
-			"name": "Camera",
+			"name": "Camara",
 			"layers": 1,
 			"matrix": [0.605503,0,-0.795843,0,-0.261526,0.944464,-0.198978,0,0.751645,0.328615,0.571876,0,2.571484,1.124239,1.956469,1],
 			"fov": 50,
@@ -60,7 +60,7 @@
 		"object": {
 			"uuid": "5FC9ACA9-2A93-474D-AA32-FACC76551914",
 			"type": "Scene",
-			"name": "Scene",
+			"name": "Escena",
 			"layers": 1,
 			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 			"children": [

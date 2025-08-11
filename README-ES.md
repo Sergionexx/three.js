@@ -21,8 +21,6 @@ El objetivo del proyecto es crear una biblioteca 3D multiplataforma, ligera, fá
 
 ### Uso
 
-### Uso
-
 Este código crea una escena, una cámara y un cubo geométrico, y agrega el cubo a la escena. Luego crea un renderizador `WebGL` para la escena y la cámara, y agrega esa ventana gráfica al elemento `document.body`. Finalmente, anima el cubo dentro de la escena para la cámara.
 
 ```javascript
@@ -74,6 +72,40 @@ git clone --depth=1 https://github.com/mrdoob/three.js.git
 
 [Releases](https://github.com/mrdoob/three.js/releases)
 
+## Cambios en la traducción al español
+
+Esta versión incluye traducciones completas al español:
+
+### Archivos traducidos:
+- `package.json` - Descripción y palabras clave
+- `README.md` - Documentación principal 
+- `README-ES.md` - Documentación en español (nuevo archivo)
+- `editor/index.html` - Título del editor
+- `editor/manifest.json` - Nombre de la aplicación
+- `editor/js/Strings.js` - Sistema completo de traducción del editor
+- `editor/js/Config.js` - Configuración predeterminada en español
+- `editor/js/Sidebar.Settings.js` - Soporte para idioma español
+- `examples/index.html` - Título de ejemplos
+- `docs/index.html` - Título de documentación
+- Varios archivos HTML de ejemplos con títulos traducidos
+
+### Características de la traducción:
+- **Editor completamente en español**: Todos los menús, botones, etiquetas y mensajes
+- **Idioma predeterminado español**: Se inicia en español automáticamente
+- **Selector de idiomas**: Permite cambiar entre español, inglés, francés, chino, japonés, coreano y farsi
+- **Traducciones técnicas precisas**: Terminología 3D y gráficos apropiada en español
+- **Consistencia**: Uso consistente de terminología a lo largo de toda la aplicación
+
+### Términos clave traducidos:
+- **Mesh** → **Malla**
+- **Shader** → **Shader** (se mantiene por ser término técnico establecido)
+- **Geometry** → **Geometría**  
+- **Material** → **Material**
+- **Scene** → **Escena**
+- **Camera** → **Cámara**
+- **Light** → **Luz**
+- **Render** → **Renderizar**
+- **Animation** → **Animación**
 
 [npm]: https://img.shields.io/npm/v/three
 [npm-url]: https://www.npmjs.com/package/three
@@ -85,4 +117,3 @@ git clone --depth=1 https://github.com/mrdoob/three.js.git
 [deepscan-url]: https://deepscan.io/dashboard#view=project&tid=16600&pid=19901&bid=525701
 [discord]: https://img.shields.io/discord/685241246557667386
 [discord-url]: https://discord.gg/56GBJwAnUS
-
